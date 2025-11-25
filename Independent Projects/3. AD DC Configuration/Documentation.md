@@ -11,6 +11,6 @@ I first create three Organizational Units to keep everything separated and clean
 
 I made two policies to start: C_SEC_SCREENTIMEOUT and C_SEC_LOGONMESSAGE. The naming scheme reads as C (Computer Policy), SEC (Security Policy), and a description of the policy. I linked these GPOs to the Lab COmputers OU and after restarting vm-WIN11, it immediately worked.
 
-<img width="600" height="300" alt="image" src="https://github.com/user-attachments/assets/01057baf-d95c-4db6-a35b-93e51f4de22c" />
-<img width="600" height="200" alt="image" src="https://github.com/user-attachments/assets/54dd210e-5643-49e0-b521-b5c2df79e2fb" />
-<img width="548" height="302" alt="image" src="https://github.com/user-attachments/assets/c11a9c42-d026-449f-938e-d89cd29265af" />
+<img width="400" height="200" alt="image" src="https://github.com/user-attachments/assets/01057baf-d95c-4db6-a35b-93e51f4de22c" />
+<img width="400" height="200" alt="image" src="https://github.com/user-attachments/assets/54dd210e-5643-49e0-b521-b5c2df79e2fb" />
+<img width="300" height="200" alt="image" src="https://github.com/user-attachments/assets/c11a9c42-d026-449f-938e-d89cd29265af" />
