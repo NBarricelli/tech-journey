@@ -34,16 +34,9 @@
 - Serverless Architecture: A consumption-based model where the CSP dynamically manages the allocation and provisioning of servers. Resources are stateless, servers are ephemeral, and often capable of being triggered (ex. Azure Logic App, Azure Functions, Azure Event Grid.)
 
 ### **Difference between PaaS and Serverless Architecture**
-#### **PaaS**
-- **More Control** over deployment environment
-- Application **must be configured** to auto-scale
-- Application takes a while to **spin up**
 
-#### **Serverless**
-- **Less Control** over deployment environment
-- Application **scales automatically**
-- Application code only **executes when invoked**
-
-#### **Both**
-- Developers need to write the code
-- No server management necessary
+| PaaS | Both | Serverless|
+|------|------|-----------|
+| **More Control** over deployment environment | Developers need to write the code | **Less Control** over deployment environment |
+| Application **must be configured** to auto-scale | No server management necessary | Application **scales automatically** |
+| Application takes a while to **spin up** | | No server management necessary |
