@@ -37,6 +37,6 @@
 
 | PaaS | Both | Serverless|
 |------|------|-----------|
-| **More Control** over deployment environment | Developers need to write the code | **Less Control** over deployment environment |
-| Application **must be configured** to auto-scale | No server management necessary | Application **scales automatically** |
-| Application takes a while to **spin up** | | No server management necessary |
+| ***More Control*** over deployment environment | Developers need to write the code | ***Less Control*** over deployment environment |
+| Application ***must be configured*** to auto-scale | No server management necessary | Application ***scales automatically*** |
+| Application takes a while to ***spin up*** | | Application code only ***executes when invokes*** |
