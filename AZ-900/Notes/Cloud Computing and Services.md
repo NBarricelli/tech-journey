@@ -42,6 +42,14 @@
 | Application takes a while to ***spin up*** | | Application code only ***executes when invokes*** |
 
 #### **Serverless Azure Apps**
-- **Logic App**: A cloud service that allows you to schedule, automate, and orchestrate tasks, business processes, and workflows. Allows you to connect and integrate hundreds of pre-built connectors for Microsoft and 3rd party services.
-- **Functions**:
-- **Event Grid**:
+- **Logic App**: A cloud service that allows you to schedule, automate, and orchestrate tasks, business processes, and workflows. Allows you to connect and integrate hundreds of pre-built connectors for Microsoft and 3rd party services. Very similar to Power Automate, but allows much more control. Common triggers include:
+  - When an email arrives...
+  - When a file is added to OneDrive...
+  - When a post is created in a SharePoint...
+- **Functions**: An event-driven, compute-on-demand experience that allows you to run small pieces of code (functions) without having to manage infrastructure. You create functions that respond to events or triggers, and Azure will automatically handle scaling, hosting, and resource management. Common triggers include:
+  - HTTP request
+  - Timer
+  - Queue message
+- **Event Grid**: Enables you to manage events and event routing across many different Azure services and applications. It works on the principle of **publishers** (emit events) and **subscribers** (react to events). One a subscription is created, Event Grid will **push** events to the configured destination. Common use cases include:
+  - Trigger a Function when a file is upload to Blob Storage
+  - Notify services when a resource changes in Azure
