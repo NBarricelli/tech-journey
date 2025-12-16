@@ -40,3 +40,8 @@
 | ***More Control*** over deployment environment | Developers need to write the code | ***Less Control*** over deployment environment |
 | Application ***must be configured*** to auto-scale | No server management necessary | Application ***scales automatically*** |
 | Application takes a while to ***spin up*** | | Application code only ***executes when invokes*** |
+
+#### **Serverless Azure Apps**
+- **Logic App**: A cloud service that allows you to schedule, automate, and orchestrate tasks, business processes, and workflows. Allows you to connect and integrate hundreds of pre-built connectors for Microsoft and 3rd party services.
+- **Functions**:
+- **Event Grid**:
