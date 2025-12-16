@@ -32,3 +32,11 @@
 - Consumption-based Model: Paying for you what use (per-minute, per-GB, per-execution, etc.)
 - Fixed-price Model: Provisioning resources and paying for them whether you use them or not
 - Serverless Architecture: A consumption-based model where the CSP dynamically manages the allocation and provisioning of servers. Resources are stateless, servers are ephemeral, and often capable of being triggered (ex. Azure Logic App, Azure Functions, Azure Event Grid.)
+
+### **Difference between PaaS and Serverless Architecture**
+
+| PaaS | Both | Serverless|
+|------|------|-----------|
+| ***More Control*** over deployment environment | Developers need to write the code | ***Less Control*** over deployment environment |
+| Application ***must be configured*** to auto-scale | No server management necessary | Application ***scales automatically*** |
+| Application takes a while to ***spin up*** | | Application code only ***executes when invokes*** |
