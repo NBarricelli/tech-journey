@@ -34,14 +34,6 @@ In summary: Resources > Resource Groups > Subscriptions > Management Groups
 
 <img width="608" height="376" alt="image" src="https://github.com/user-attachments/assets/bd5f4956-b548-48ec-8302-40ba18c08e0c" />
 
-### **Difference between PaaS and Serverless Architecture**
-
-| PaaS | Both | Serverless|
-|------|------|-----------|
-| ***More Control*** over deployment environment | Developers need to write the code | ***Less Control*** over deployment environment |
-| Application ***must be configured*** to auto-scale | No server management necessary | Application ***scales automatically*** |
-| Application takes a while to ***spin up*** | | Application code only ***executes when invokes*** |
-
 ### **Serverless Azure Apps**
 - **Logic App**: A cloud service that allows you to schedule, automate, and orchestrate tasks, business processes, and workflows. Allows you to connect and integrate hundreds of pre-built connectors for Microsoft and 3rd party services. Very similar to Power Automate, but allows much more control. Common triggers include:
   - When an email arrives...
