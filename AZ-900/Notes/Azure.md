@@ -27,7 +27,7 @@
 
 <img width="654" height="269" alt="image" src="https://github.com/user-attachments/assets/6e768e61-1093-407e-b242-51897137e2a4" />
 
-In a multi-subscription account, the subscriptions can be used to configure different billing models and apply different access-management policies. **Billing boundaries** are a subscription type that allows Azure to generate separate illing reports and invoices for each subscription so you can organize and manage costs. **Access control boundaries** are types that allows you to reflect different organizational structures (ex. you can manage and control access to the resources that users in a specific business department provision.)
+In a multi-subscription account, the subscriptions can be used to configure different billing models and apply different access-management policies. **Billing boundaries** are a subscription type that allows Azure to generate separate billing reports and invoices for each subscription so you can organize and manage costs. **Access control boundaries** are types that allows you to reflect different organizational structures (ex. you can manage and control access to the resources that users in a specific business department provision.)
 - Management Groups: A collection of subscriptions that can have governance conditions applied to it.
 
 In summary: Resources > Resource Groups > Subscriptions > Management Groups
