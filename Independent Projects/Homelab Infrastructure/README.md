@@ -22,13 +22,13 @@ Connected infrastructure includes:
 
 ### Network Segmentation
 
-The environment uses VLANs to separate devices and services based on their purpose. They include but are not limited to:
+The environment uses VLANs and subnets to separate devices and services based on their purpose. They include but are not limited to:
 
-| VLAN | Purpose |
-|------|---------|
-| VLAN 20 | Servers |
-| VLAN 40 | IoT |
-| VLAN 50 | User Devices |
+| VLAN | Subnet | Purpose |
+|------|--------|---------|
+| VLAN 20 | 172.25.20.x | Servers |
+| VLAN 40 | 172.25.40.x | IoT |
+| VLAN 50 | 172.25.50.x | User Devices |
 
 My AP broadcasts separate networks for trusted user devices and IoT devices.
 
